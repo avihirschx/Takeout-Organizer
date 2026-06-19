@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tests / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tool working files / outputs (don't commit anyone's photo library or run state)
+_staging/
+inventory.json
+extracted.json
+diverted.json
+placements.json
+albums.json
+run.log
+errors.log
+embed.log
+verify_report.txt
+near-dup-groups.json
+review-near-dupes.cmd
+review-near-dupes.sh
+_smoke_src/
+_smoke_out/
